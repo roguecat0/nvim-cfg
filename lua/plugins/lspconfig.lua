@@ -112,7 +112,7 @@ local servers = {
   --    https://github.com/mrcjkb/rustaceanvim
   --
   -- But for many setups, the LSP (`rust_analyzer`) will work just fine
-  -- rust_analyzer = {},
+  rust_analyzer = {},
 
   stylua = {}, -- Used to format Lua code
 
