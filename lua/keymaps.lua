@@ -35,6 +35,6 @@ vim.diagnostic.config({
 })
 
 -- search
-vim.keymap.set("n", "<leader>x", "<cmd>q<CR>", { desc = "Close File" })
+vim.keymap.set("n", "<leader>x", "<cmd>bdelete<CR>", { desc = "Close File" })
 -- handy
 vim.keymap.set("n", "<leader>e", "<cmd>Explore<CR>", { desc = "Toggle Explorer" })
